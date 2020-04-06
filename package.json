@@ -4,8 +4,11 @@
   "description": "Type morse code",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "http-server"
   },
   "author": "Niels Gerritsen",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.12.1"
+  }
 }
