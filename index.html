@@ -10,8 +10,11 @@
 
 <body data-color="blue">
     <div class="container">
-        <header class="section header">
-            <h1>Type Morse</h1>
+        <header class="header">
+            <div>
+                <h1 class="title">Type Morse</h1>
+                <p class="subtitle">Hold and release any key to type morse code</p>
+            </div>
             <div>
                 <select name="wpm" id="wpm" class="menu-item">
                     <option value="5">5 WPM</option>
@@ -36,8 +39,10 @@
                 </select>
             </div>
         </header>
-        <div class="section morse-output" data-morse-output></div>
-        <div class="section" data-alphabet-output></div>
+        <div class="section morse-code" data-morse-output></div>
+        <footer class="section footer">
+            By Niels Gerritsen
+        </footer>
     </div>
     <script src="main.js"></script>
 </body>
