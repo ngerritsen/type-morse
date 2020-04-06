@@ -1,0 +1,119 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.4rem;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 3.6rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-item {
+  margin-left: 2rem;
+  font-size: 1.4rem;
+}
+
+.container {
+  padding: 0 3rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section {
+  margin-top: 6rem
+}
+
+[data-color="blue"] {
+  background-color: #4b7bec;
+}
+
+[data-color="orange"] {
+  background-color: #fd9644;
+}
+
+[data-color="yellow"] {
+  background-color: #fed330;
+  color: #000;
+}
+
+[data-color="green"] {
+  background-color: #26de81;
+}
+
+[data-color="purple"] {
+  background-color: #a55eea;
+}
+
+[data-color="grey"] {
+  background-color: #778ca3;
+}
+
+[data-color="red"] {
+  background-color: #fc5c65;
+}
+
+[data-color="white"] {
+  background-color: #fff;
+}
+
+[data-color="black"] {
+  background-color: #000;
+}
+
+[data-color="yellow"],
+[data-color="white"] {
+  color: #000;
+}
+
+[data-code] {
+  display: inline-block;
+  border-radius: 0.5em;
+  height: 1em;
+  margin-bottom: 2em;
+}
+
+[data-code]:not([data-code*="_DELIMITER"]) {
+  background-color: #fff;
+}
+
+[data-color="yellow"] [data-code]:not([data-code*="_DELIMITER"]),
+[data-color="white"] [data-code]:not([data-code*="_DELIMITER"]) {
+  background-color: #000;
+}
+
+[data-code="DOT"] {
+  width: 1em;
+}
+
+[data-code="DASH"] {
+  width: 3em;
+}
+
+[data-code*="_DELIMITER"]:first-child,
+[data-code*="_DELIMITER"]:last-child {
+  display: none;
+}
+
+[data-code="CODE_DELIMITER"] {
+  width: 1em;
+}
+
+[data-code="CHARACTER_DELIMITER"] {
+  width: 3em;
+}
+
+[data-code="WORD_DELIMITER"] {
+  width: 9em;
+}

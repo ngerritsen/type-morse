@@ -1,0 +1,44 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Type Morse</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body data-color="blue">
+    <div class="container">
+        <header class="section header">
+            <h1>Type Morse</h1>
+            <div>
+                <select name="wpm" id="wpm" class="menu-item">
+                    <option value="5">5 WPM</option>
+                    <option value="10" selected>10 WPM</option>
+                    <option value="15">15 WPM</option>
+                    <option value="20">20 WPM</option>
+                    <option value="30">30 WPM</option>
+                    <option value="40">40 WPM</option>
+                    <option value="50">50 WPM</option>
+                    <option value="60">60 WPM</option>
+                </select>
+                <select name="color" id="color" class="menu-item">
+                    <option value="blue" selected>Blue</option>
+                    <option value="red">Red</option>
+                    <option value="orange">Orange</option>
+                    <option value="yellow">Yellow</option>
+                    <option value="green">Green</option>
+                    <option value="purple">Purple</option>
+                    <option value="grey">Grey</option>
+                    <option value="white">White</option>
+                    <option value="black">Black</option>
+                </select>
+            </div>
+        </header>
+        <div class="section morse-output" data-morse-output></div>
+        <div class="section" data-alphabet-output></div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
