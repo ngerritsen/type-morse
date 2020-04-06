@@ -4,7 +4,8 @@
   "description": "Type morse code",
   "main": "index.js",
   "scripts": {
-    "serve": "http-server"
+    "serve": "http-server",
+    "test": "echo 'no tests'"
   },
   "author": "Niels Gerritsen",
   "license": "ISC",
